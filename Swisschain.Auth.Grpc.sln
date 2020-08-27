@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swisschain.Auth.Grpc", "Swisschain.Auth.Grpc\Swisschain.Auth.Grpc.csproj", "{55B1FE7C-6C78-4AE3-BD67-A02C3344068B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swisschain.Auth.Domains", "Swisschain.Auth.Domains\Swisschain.Auth.Domains.csproj", "{686C9D65-0376-40D1-B53C-35C6639FADA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swisschain.Auth.Postgres", "Swisschain.Auth.Postgres\Swisschain.Auth.Postgres.csproj", "{AF5F8EC0-5837-4A6E-AE7D-C8401AF718E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swisschain.Auth.Server", "Swisschain.Auth.Server\Swisschain.Auth.Server.csproj", "{07FA0A26-80E5-469D-9169-18DE515EB954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B1FE7C-6C78-4AE3-BD67-A02C3344068B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B1FE7C-6C78-4AE3-BD67-A02C3344068B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B1FE7C-6C78-4AE3-BD67-A02C3344068B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B1FE7C-6C78-4AE3-BD67-A02C3344068B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686C9D65-0376-40D1-B53C-35C6639FADA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686C9D65-0376-40D1-B53C-35C6639FADA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686C9D65-0376-40D1-B53C-35C6639FADA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686C9D65-0376-40D1-B53C-35C6639FADA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5F8EC0-5837-4A6E-AE7D-C8401AF718E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5F8EC0-5837-4A6E-AE7D-C8401AF718E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5F8EC0-5837-4A6E-AE7D-C8401AF718E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5F8EC0-5837-4A6E-AE7D-C8401AF718E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07FA0A26-80E5-469D-9169-18DE515EB954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FA0A26-80E5-469D-9169-18DE515EB954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FA0A26-80E5-469D-9169-18DE515EB954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FA0A26-80E5-469D-9169-18DE515EB954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
