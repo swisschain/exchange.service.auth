@@ -1,11 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Swisschain.Auth.Core\Swisschain.Auth.Core.csproj" />
       <ProjectReference Include="..\Swisschain.Auth.Domains\Swisschain.Auth.Domains.csproj" />
     </ItemGroup>
 
