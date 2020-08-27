@@ -19,12 +19,12 @@ namespace Swisschain.Auth.Server
                     {
                         webBuilder.ConfigureKestrel(options =>
                         {
-                            options.Listen(IPAddress.Any, 8080, o => o.Protocols =
+                            options.Listen(IPAddress.Any, 5000, o => o.Protocols =
                                 HttpProtocols.Http1);
-                            options.Listen(IPAddress.Any, 5963, o => o.Protocols =
+                            options.Listen(IPAddress.Any, 5001, o => o.Protocols =
                                 HttpProtocols.Http2);
                         });
-                        webBuilder.UseUrls("http://*:5963", "http://*:8080");
+                        webBuilder.UseUrls("http://*:5000", "http://*:5001");
                         webBuilder.UseStartup<Startup>();
                     });
     }

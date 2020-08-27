@@ -11,7 +11,7 @@ namespace Swisschain.Auth.Postgres
         private readonly byte[] _initKey;
         private readonly byte[] _initVector;
 
-        private const string TableName = "authcreds";
+        private const string TableName = "auth.authcreds";
         
         public AuthenticationCredentialsPostgresRepository(IPostgresConnection postgresConnection,  byte[] initKey, byte[] initVector)
         {
